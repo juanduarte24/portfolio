@@ -5,8 +5,8 @@ const About = () => {
         <div name='about' className='flex w-full h-screen bg-[#18202b] text-gray-300'>
             <div className='flex flex-col justify-center items-center w-full'>
                 <div className='max-w-[1000px] w-full grid grid-cols-2 gap-8'>
-                    <div className='sm:text-right pb-8 pl-4'>
-                        <p className='text-4xl font-bold inline border-b-4 border-green-600'>About</p>
+                    <div className='sm:text-right pb-8 pl-4 mt-4'>
+                        <p className='text-4xl font-bold inline border-b-4 border-green-600'>Sobre mi</p>
                     </div>
                     <div>
 
@@ -17,7 +17,7 @@ const About = () => {
 
                         <p>
 
-                            Hola, Soy Juan Duarte, un placer que estes por aqui. Por favor hecha un vistazo a mi Portafolio
+                            Hola, Soy Juan Duarte, un placer que estés por aquí. Por favor hecha un vistazo a mi portafolio
                         </p>
                     </div>
 
