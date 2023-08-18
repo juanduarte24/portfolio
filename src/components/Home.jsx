@@ -1,9 +1,10 @@
 import React from 'react'
 import { HiArrowNarrowRight } from 'react-icons/hi'
+import { Link } from 'react-scroll'
 
 const Home = () => {
     return (
-        <div name='home' className='w-full h-screen bg-[#0a192f]'>
+        <div name='home' className='w-full h-screen bg-[#18202b]'>
             {/* Container */}
             <div className='max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full'>
                 <p className='text-[#41b645] text-2xl'>Hola, mi nombre es</p>
@@ -12,7 +13,9 @@ const Home = () => {
                 <p className='text-[#8892c0] py-4 max-w-[700px]'> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nulla cumque optio beatae amet atque dignissimos iure voluptates qui assumenda autem id dolor, iste sit ea quisquam quo! Nostrum, blanditiis asperiores!Lorem Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsa, architecto quas ducimus, quaerat, praesentium sed cum sint alias consequatur et molestias temporibus. Itaque facilis placeat odit iste quisquam optio sequi!</p>
                 <div>
                     <button className='text-white group border-2 px-6 py-3 my-2 flex items-center hover:bg-[#41b645ff] hover:border-[#41b645ff] '>
+                        <Link to='proyects' smooth={true} duration={500}>
                         Proyectos
+                        </Link>
                         <span className='group-hover:rotate-90 duration-300 '>
                         <HiArrowNarrowRight className='ml-4 hover:'/>
                         </span>
