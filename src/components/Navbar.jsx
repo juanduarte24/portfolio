@@ -68,8 +68,9 @@ const Navbar = () => {
                     <FaTimes />}
             </div>
 
-            {/* Mobile Menu */}
-            //TODO Boton Mobile CV
+            {/* Mobile Menu 
+            TODO Mobile Cv */}
+            
             <div>
                 <ul className={!nav ? 'hidden' : 'absolute top-0 left-0 w-full h-screen bg-[#0a192f] flex flex-col justify-center items-center'}>
                     <li className='py-5 mt-2 text-4xl'> <Link onClick={handleClick} to='home' smooth={true} duration={500} >
