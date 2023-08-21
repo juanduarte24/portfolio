@@ -18,7 +18,7 @@ const Navbar = () => {
     const pdfUrl = '../utils/Cv/cv.pdf'
 
     return (
-        <div className='fixed w-full h-[80px] flex justify-end items-center px-4 bg-[#18202b] text-gray-300 '>
+        <div className='fixed w-full h-[70px] flex justify-end items-center px-4 bg-[#18202b] text-gray-300 '>
 
             {/* Menu */}
 

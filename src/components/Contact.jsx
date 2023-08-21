@@ -6,7 +6,7 @@ const Contact = () => {
             <form method='POST' action="https://getform.io/f/c99e7d48-e5f1-4cf2-b7aa-0142053a8952 "  className='flex flex-col mx-w-[600px] w-full justify-center items-center text-center '>
                 <div className='pb-8'>
                     <p className='text-4xl  font-bold inline  border-b-4 border-[#41b645ff] text-gray-300'>Contacto</p>
-                    <p className='text-gray-300 py-4 text-xl text-left'>- Llena el formulario que se encuentra debajo o mandame un email!  <br />- Email : juanduartemartinez@gmail.com </p>
+                    <p className='text-gray-300 py-4 text-xl text-left'>Llena el formulario que se encuentra debajo o mandame un email!  <br />Email : juanduartemartinez@gmail.com </p>
                 </div>
                 <input className='  bg-[#ccd6f6]  p-2 w-96'type="text" placeholder='Nombre' name='name' />
                 <input className='my-4 p-2 bg-[#ccd6f6] w-96' type="email" placeholder='Email' name='email' />

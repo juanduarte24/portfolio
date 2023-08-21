@@ -12,7 +12,7 @@ const Proyects = () => {
                         <br />
                         <br />
                         Proyectos</p>
-                    <p className='py-4 text-xl text-gray-300'>- Éstos son mis proyectos mas recientes!</p>
+                    <p className='py-4 text-xl text-gray-300'>Estos son mis proyectos mas recientes!</p>
                 </div>
 
 
