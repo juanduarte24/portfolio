@@ -13,7 +13,7 @@ const Skills = () => {
             {/* Container */}
             <div className=' max-w-[1000px] mx-auto px-4 flex flex-col justify-center py-16 md:py-32 '>
                 <div className='text-center'>
-                    <p className='text-4xl font-bold inline border-b-4 border-[#41b645ff]'>Experiencia</p>
+                    <p className='text-4xl font-bold inline border-b-4 border-[#41b645ff]'>Tecnologias</p>
                     <p className='pt-3 text-xl'>Estas son las tecnologías con las que he trabajado</p>
                 </div>
 

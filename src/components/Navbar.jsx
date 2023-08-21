@@ -35,7 +35,7 @@ const Navbar = () => {
                 </li>
                 <li className='bg-[#0a192f] hover:bg-[#5cb342] border  rounded p-3'>
                     <Link to='skills' smooth={true} duration={500} >
-                        Habilidades
+                        Tecnologias
                     </Link>
                 </li>
                 <li className='bg-[#0a192f] hover:bg-[#5cb342] border  rounded p-3'>
@@ -75,7 +75,7 @@ const Navbar = () => {
 
 
                 <ul className={!nav ? 'hidden' : 'absolute  left-0 w-full h-screen bg-[#18202b] top-0 '}>
-                    <p className='p-4 text-4xl '>
+                    <p className='p-4 text-4xl mt-3 '>
                         Portafolio
                     </p>
                     <div className='mt-6 flex flex-col text-xl '>
@@ -98,7 +98,7 @@ const Navbar = () => {
 
                         <Link onClick={handleClick} to='skills' smooth={true} duration={500} >
                             <li className='py-2 flex justify-between hover:text-[#5cb342]'>
-                                Habilidades <i className='bx bxs-chevron-right mt-1'></i>
+                                Tecnologias <i className='bx bxs-chevron-right mt-1'></i>
                             </li>
                         </Link>
 
@@ -112,7 +112,7 @@ const Navbar = () => {
                                 Contacto <i className='bx bxs-chevron-right mt-1'></i>
                             </li>
                         </Link>
-                        <button className='bg-[#0a192f] hover:bg-[#5cb342] border  rounded p-3 mx-auto mt-6'>
+                        <button className='bg-[#0a192f] hover:bg-[#5cb342] border  rounded p-3 mx-auto mt-6 '>
                             <a href={pdf} download=''>
                                 Descargar CV
                             </a>
