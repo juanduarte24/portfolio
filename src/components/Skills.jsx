@@ -11,10 +11,10 @@ const Skills = () => {
     return (
         <div name='skills' className='w-full h-screen bg-[#18202b] text-gray-300'>
             {/* Container */}
-            <div className=' max-w-[1000px] mx-auto px-8 flex flex-col justify-center py-16 md:py-32 mt-16'>
-                <div>
+            <div className=' max-w-[1000px] mx-auto px-4 flex flex-col justify-center py-16 md:py-32 '>
+                <div className='text-center'>
                     <p className='text-4xl font-bold inline border-b-4 border-[#41b645ff]'>Experiencia</p>
-                    <p className='pt-3'>- Estas son las tecnologías con las que he trabajado</p>
+                    <p className='pt-3 text-xl'>- Estas son las tecnologías con las que he trabajado</p>
                 </div>
 
 
@@ -45,6 +45,7 @@ const Skills = () => {
                     </div>
                 </div>
             </div>
+            
         </div>
     )
 }

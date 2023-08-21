@@ -50,14 +50,14 @@ const Navbar = () => {
                 </li>
                 <li>
 
-                <button className='bg-[#0a192f] hover:bg-[#5cb342] border  rounded p-3'>
-                    <a href={pdf} download=''>
-                        Descargar CV
-                    </a>
-                </button>
+                    <button className='bg-[#0a192f] hover:bg-[#5cb342] border  rounded p-3 '>
+                        <a href={pdf} download=''>
+                            Descargar CV
+                        </a>
+                    </button>
                 </li>
             </ul>
-                
+
 
             {/* {3 lines menu} */}
             <div onClick={handleClick} className='md:hidden z-10'>
@@ -70,45 +70,76 @@ const Navbar = () => {
 
             {/* Mobile Menu 
             TODO Mobile Cv */}
-            
+
             <div>
-                <ul className={!nav ? 'hidden' : 'absolute top-0 left-0 w-full h-screen bg-[#0a192f] flex flex-col justify-center items-center'}>
-                    <li className='py-5 mt-2 text-4xl'> <Link onClick={handleClick} to='home' smooth={true} duration={500} >
-                        Inicio
-                    </Link></li>
-                    <li className='py-6 text-4xl'> <Link onClick={handleClick} to='about' smooth={true} duration={500} >
-                        Sobre mi
-                    </Link></li>
-                    <li className='py-6 text-4xl'><Link onClick={handleClick} to='skills' smooth={true} duration={500} >
-                        Habilidades
-                    </Link></li>
-                    <li className='py-6 text-4xl'><Link onClick={handleClick} to='proyects' smooth={true} duration={500} >
-                        Proyectos
-                    </Link></li>
-                    <li className='py-6 text-4xl'><Link onClick={handleClick} to='contact' smooth={true} duration={500} >
-                        Contacto
-                    </Link></li>
-                    
+
+
+                <ul className={!nav ? 'hidden' : 'absolute  left-0 w-full h-screen bg-[#18202b] top-0 '}>
+                    <p className='p-4 text-4xl '>
+                        Portafolio
+                    </p>
+                    <div className='mt-6 flex flex-col text-xl '>
+
+
+
+                        <Link onClick={handleClick} to='home' smooth={true} duration={500} >
+                            <li className='py-2 flex justify-between hover:text-[#5cb342]'>
+                                Inicio <i className='bx bxs-chevron-right mt-1'></i>
+                            </li>
+
+
+                        </Link>
+
+                        <Link onClick={handleClick} to='about' smooth={true} duration={500} >
+                            <li className=' py-2 flex justify-between hover:text-[#5cb342]'>
+                                Sobre mi <i className='bx bxs-chevron-right mt-1'></i>
+                            </li>
+                        </Link>
+
+                        <Link onClick={handleClick} to='skills' smooth={true} duration={500} >
+                            <li className='py-2 flex justify-between hover:text-[#5cb342]'>
+                                Habilidades <i className='bx bxs-chevron-right mt-1'></i>
+                            </li>
+                        </Link>
+
+                        <Link onClick={handleClick} to='proyects' smooth={true} duration={500} >
+                            <li className='py-2 flex justify-between hover:text-[#5cb342]'>
+                                Proyectos <i className='bx bxs-chevron-right mt-1'></i>
+                            </li>
+                        </Link>
+                        <Link onClick={handleClick} to='contact' smooth={true} duration={500} >
+                            <li className=' py-2 flex justify-between hover:text-[#5cb342] '>
+                                Contacto <i className='bx bxs-chevron-right mt-1'></i>
+                            </li>
+                        </Link>
+                        <button className='bg-[#0a192f] hover:bg-[#5cb342] border  rounded p-3 mx-auto mt-6'>
+                            <a href={pdf} download=''>
+                                Descargar CV
+                            </a>
+                        </button>
+                    </div>
+
                 </ul>
+
             </div>
 
 
             {/* social Icons */}
-            <div className='hidden  lg:flex fixed flex-col top-[35%] left-0'>
+            <div className='hidden  lg:flex fixed flex-col top-[35%] right-0'>
                 <ul>
-                    <li className='w-[150px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-600'>
+                    <li className='w-[150px] h-[60px] flex justify-between items-center mr-[-100px] hover:ml-[-10px] duration-300 bg-blue-600'>
                         <a target='_blank' className='flex justify-between items-center w-full text-gray-300' href='https://www.linkedin.com/in/juanduartedev/'>
-                            LinkedIn <FaLinkedin size={30} />
+                            <FaLinkedin size={30} />
                         </a>
                     </li>
-                    <li className='w-[150px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#333333]'>
+                    <li className='w-[150px] h-[60px] flex justify-between items-center mr-[-100px] hover:ml-[-10px] duration-300 bg-[#333333]'>
                         <a className='flex justify-between items-center w-full text-gray-300' href="https://github.com/juanduarte24">
-                            Github <FaGithub size={30} />
+                            <FaGithub size={30} />
                         </a>
                     </li>
-                    <li className='w-[150px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#ff8b2d]'>
+                    <li className='w-[150px] h-[60px] flex justify-between items-center mr-[-100px] hover:ml-[-10px] duration-300 bg-[#ff8b2d]'>
                         <Link to='email' className='flex justify-between items-center w-full text-gray-300'  >
-                            Email <HiOutlineMail size={30} />
+                            <HiOutlineMail size={30} />
                         </Link>
                     </li>
 

@@ -6,10 +6,13 @@ import rick from '../assets/rick.png'
 const Proyects = () => {
     return (
         <div name='proyects' className='w-full md:h-screen text-gray-300 bg-[#18202b]'>
-            <div className='max-w-[1000px] mx-auto px-8 flex flex-col justify-center py-16 md:py-32 mt-16'>
-                <div className='pb-8'>
-                    <p className='text-4xl font-bold inline border-b-4 text-gray-300 border-[#41b645ff]'>Proyectos</p>
-                    <p className='py-4'>- Éstos son mis proyectos mas recientes!</p>
+            <div className='max-w-[1000px] mx-auto px-4 flex flex-col justify-center py-16 md:py-32 '>
+                <div className='pb-8 text-center'>
+                    <p className='text-4xl font-bold inline border-b-4 text-gray-300 border-[#41b645ff]'>
+                        <br />
+                        <br />
+                        Proyectos</p>
+                    <p className='py-4 text-xl text-gray-300'>- Éstos son mis proyectos mas recientes!</p>
                 </div>
 
 

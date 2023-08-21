@@ -6,7 +6,7 @@ const Home = () => {
     return (
         <div name='home' className='w-full min-h-screen bg-[#18202b] flex items-center'>
             {/* Container */}
-            <div className='max-w-[1000px] mx-auto px-4 flex flex-col justify-center py-16 md:py-32 mt-16'>
+            <div className='max-w-[1000px] mx-auto px-4 flex flex-col justify-center py-16 md:py-32 mt-3'>
                 <p className='text-[#41b645] text-2xl '>Hola, mi nombre es</p>
                 <h1 className='text-4xl sm:text-8xl font-semibold text-[#ccd6f6]'>[Juan Duarte]</h1>
                 <h2 className='text-4xl sm:text-7xl  text-[#676d86] mt-3'>Soy Desarrollador Full Stack </h2>
