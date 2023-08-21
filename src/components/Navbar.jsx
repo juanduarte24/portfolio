@@ -23,34 +23,37 @@ const Navbar = () => {
             {/* Menu */}
 
             <ul className='hidden md:flex gap-3 '>
-                <li className='bg-[#0a192f] hover:bg-[#5cb342] border  rounded p-3'>
+                <li className='bg-[#0a192f] hover:bg-[#5cb342] shadow-md shadow-[#040c16]   rounded p-3'>
                     <Link to='home' smooth={true} duration={500} >
                         Inicio
                     </Link>
                 </li>
-                <li className='bg-[#0a192f] hover:bg-[#5cb342] border  rounded p-3'>
+                <li className='bg-[#0a192f] hover:bg-[#5cb342] shadow-md shadow-[#040c16]    rounded p-3'>
                     <Link to='about' smooth={true} duration={500} >
                         Sobre mi
                     </Link>
                 </li>
-                <li className='bg-[#0a192f] hover:bg-[#5cb342] border  rounded p-3'>
+                <li className='bg-[#0a192f] hover:bg-[#5cb342] shadow-md shadow-[#040c16]    rounded p-3'>
                     <Link to='skills' smooth={true} duration={500} >
                         Tecnologias
                     </Link>
                 </li>
-                <li className='bg-[#0a192f] hover:bg-[#5cb342] border  rounded p-3'>
-                    <Link to='proyects' smooth={true} duration={500} >
-                        Proyectos
-                    </Link>
-                </li>
-                <li className='bg-[#0a192f] hover:bg-[#5cb342] border  rounded p-3'>
+                
+
+                    <li className='bg-[#0a192f] hover:bg-[#5cb342] shadow-md shadow-[#040c16]  rounded p-3'>
+                        <Link to='proyects' smooth={true} duration={500} >
+                            Proyectos
+                        </Link>
+                    </li>
+                
+                <li className='bg-[#0a192f] hover:bg-[#5cb342] shadow-md shadow-[#040c16]   p-3'>
                     <Link to='contact' smooth={true} duration={500} >
                         Contacto
                     </Link>
                 </li>
                 <li>
 
-                    <button className='bg-[#0a192f] hover:bg-[#5cb342] border  rounded p-3 '>
+                    <button className='bg-[#0a192f] hover:bg-[#5cb342]   shadow-md shadow-[#040c16]   p-3 '>
                         <a href={pdf} download=''>
                             Descargar CV
                         </a>
@@ -60,16 +63,15 @@ const Navbar = () => {
 
 
             {/* {3 lines menu} */}
-            <div onClick={handleClick} className='md:hidden z-10'>
+            <div onClick={handleClick} className='md:hidden  z-10'>
                 {!nav
                     ?
-                    <FaBars />
+                    <FaBars size={20}/>
                     :
-                    <FaTimes />}
+                    <FaTimes size={20} />}
             </div>
 
-            {/* Mobile Menu 
-            TODO Mobile Cv */}
+            {/* Mobile Menu */}
 
             <div>
 
@@ -112,7 +114,7 @@ const Navbar = () => {
                                 Contacto <i className='bx bxs-chevron-right mt-1'></i>
                             </li>
                         </Link>
-                        <button className='bg-[#0a192f] hover:bg-[#5cb342] border  rounded p-3 mx-auto mt-6 '>
+                        <button className='bg-[#0a192f] hover:bg-[#5cb342] shadow-md shadow-[#040c16]  rounded p-3 mx-auto mt-6 '>
                             <a href={pdf} download=''>
                                 Descargar CV
                             </a>
