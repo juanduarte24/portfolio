@@ -64,10 +64,10 @@ const Proyects = () => {
                                 React Js Application
                             </span>
                             <div className='pt-8 text-center'>
-                                <a target='_blank' href='https://weatherapp-27.netlify.app/'>
+                                <a target='_blank' href='https://weatherapp-27-2.netlify.app/'>
                                     <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
                                 </a>
-                                <a target='_blank' href="https://github.com/juanduarte24/app-clima">
+                                <a target='_blank' href="https://github.com/juanduarte24/Weatherapp">
                                     <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
                                 </a>
                             </div>
